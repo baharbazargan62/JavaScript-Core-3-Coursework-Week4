@@ -4,4 +4,6 @@ test("returns I if passed 1 as an argument", function () {
   // Arrange
   // Act
   // Assert
+ 
+  expect(convertToOldRoman(4)).toEqual("IIII")
 });
