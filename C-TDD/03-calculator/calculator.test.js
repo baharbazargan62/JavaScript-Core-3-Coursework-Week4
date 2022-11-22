@@ -14,9 +14,9 @@ test("returns 0 if length of string is 0", function () {
   });
   test("returns negarives are not allowed:", function () {
 
-    expect(add("-1,4,-5")).toEqual("negarives are not allowed:-1,-5")
+    expect(add("-1,4,-5")).toEqual("negatives are not allowed:-1,-5")
   });
   test("returns numbers of greater than 1000 are ignored", function () {
 
-    expect(add("1001,2")).toEqual("2")
+    expect(add("1001,2")).toEqual(2)
   });
